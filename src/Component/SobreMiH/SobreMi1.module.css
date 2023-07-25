@@ -1,0 +1,93 @@
+.SobreMiHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    height: 100vh;
+
+    font-size: xx-large;
+    
+    /* border: 1px solid black; */
+      
+}
+
+.SobreMiHome2{
+    /* background-color: red; */
+    /* padding: auto; */
+}
+
+
+.textoH {
+    display: inline-block; /* Necesario para aplicar transformaciones */
+    /* border: 1px solid black; */
+}
+
+.span1{
+    display: flex;
+    justify-content: center;
+
+    width: 450px;
+
+    /* border: 1px solid black; */
+}
+
+.span2{
+    display: flex;
+    justify-content: center;
+
+    /* border: 1px solid black; */
+}
+
+
+.logoss{
+    /* border: 1px solid; */
+
+    min-width: 140px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px;
+
+}
+
+.logos{
+    margin-right: 15px;
+}
+
+.logos:hover{
+    margin-right: 15px;
+
+    scale: 1.2;
+}
+
+.btnpdf{
+    border: 1px solid;
+    border-radius: 8px;
+    
+    padding: 1px 5px;
+
+    background-color: #1A1E23;
+    color: white;
+
+    font-weight: bolder;
+}
+
+.btnpdf:hover{
+    border: 1px solid;
+    border-radius: 5px;
+    
+    padding: 1px 5px;
+
+    background-color: white;
+    color: black;
+
+    font-weight: bolder;
+
+    -webkit-box-shadow: -1px 6px 9px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 6px 9px 1px rgba(0,0,0,0.75);
+    box-shadow: -1px 6px 9px 1px rgba(0,0,0,0.75)
+}

@@ -1,0 +1,56 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+
+    background-color: #1A1E23;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    height: 100vh;
+}
+
+@keyframes rotate-center{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+
+.contenedorHome{
+    animation:rotate-center 1s;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+    height: fit-content;
+    
+    color: white;
+
+    padding-left: 100px;
+    padding-right: 100px;
+
+    background-color: #1A1E23;
+
+    /* border: 1px solid black; */
+}
+
+
+.PieDePagina{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 8vh;
+
+    display: flex;
+    align-items: center;
+    
+    background-color: #1A1E23;
+}
+
+.btn{
+    width: 3em;
+
+    position: absolute;
+    transform: translateY(-2em);
+
+    background-color: aqua;
+
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
