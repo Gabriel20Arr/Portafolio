@@ -73,5 +73,11 @@
     height: fit-content;
     width: 100%;
 
+    
     margin-top: 15px;
+}
+
+.btn btn-secondary mt-3{
+    background-color: #0a0a61;
+
 }

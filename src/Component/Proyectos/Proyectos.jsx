@@ -99,29 +99,45 @@ class Proyectos extends Component {
     });
   }
 
+    //... (código del constructor y funciones)
+
   render() {
     const { activeIndex } = this.state;
+    const totalItems = items.length;
 
     const slides = items.map((item, index) => {
+      const prevIndex = (index - 1 + totalItems) % totalItems;
+      const nextIndex = (index + 1) % totalItems;
+
       return (
         <CarouselItem
           onExiting={this.onExiting}
           onExited={this.onExited}
           key={index}
         >
-          <div onClick={() => this.handleClick(item.link, item.githubLink)}>
-            <img src={item.src} alt={item.altText} className={styles.imgs} />
-            <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+          <div className={styles.carouselSlide}>
+            <div className={styles.prevImg}>
+              <img src={items[prevIndex].src} alt={items[prevIndex].altText} className={styles.prevImgItem} />
+            </div>
+
+            <div onClick={() => this.handleClick(item.link, item.githubLink)}>
+              <img src={item.src} alt={item.altText} className={styles.imgs} />
+              <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+            </div>
+
+            <div className={styles.nextImg}>
+              <img src={items[nextIndex].src} alt={items[nextIndex].altText} className={styles.nextImgItem} />
+            </div>
           </div>
         </CarouselItem>
       );
     });
 
     return (
-      <div  id='proyectos' className={styles.ContenedorProyectos}>
+      <div id='proyectos' className={styles.ContenedorProyectos}>
         <h1 className={styles.NameProyct}>
-          <b> Proyectos </b>
-        </h1>
+          <div className={styles.NameProyct2}> Proyectos </div>
+        </h1> 
         
         <Carousel
           activeIndex={activeIndex}
@@ -131,12 +147,13 @@ class Proyectos extends Component {
           <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
           {slides}
           <CarouselControl direction="prev" directionText=" " onClickHandler={this.previous} className={styles.btnNYP} />
-          <CarouselControl direction="next" directionText=" " onClickHandler={this.next} className={styles.btnNYP} />
+          <CarouselControl direction="next" directionText=" " onClickHandler={this.next} className={styles.btnNYP2} />
         </Carousel>
 
       </div>
     );
   }
 }
+
 
 export default Proyectos;

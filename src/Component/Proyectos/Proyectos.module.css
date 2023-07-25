@@ -3,70 +3,126 @@
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     
     background-color: #eeee;
-    background-color: #aea;
+    background-color: #1A1E23;
 
     /* border: 1px solid #0f0; */
   }
 
   .NameProyct{
-    background-color: blueviolet;
-
-    margin-top: 2em;
-    margin-bottom: 0.5em;
+    /* background-color: white; */
+    
+    display: flex;
+    justify-content: center;
+    
+    
+    /* margin-top: 1.5em; */
+    margin-bottom: 2.5em;
   }  
+  
+  .NameProyct2{
+    background-color: white;
+    color: #2980b9;
+    
+    border-radius: 5px;
+
+    width: 10em;
+
+    padding: 0 5px;
+
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+  }
   
   .ContenedorProyectos2 {
     display: flex;
     /* align-items: center; */
-    justify-content: center;
-
+    /* justify-content: center; */
+    
     width: 90%;
-    /* border: 1px solid red; */
   }
   
   
   .imgs {
     width: 500px; /* Asegura que las imágenes ocupen todo el ancho del slide */
-    height: 250px;
+    height: 350px;
   }
-
-.btnNYP{
-    background-color: gray;
+  
+  .btnNYP{
+    background-color: #2980b9;
     color: black;
     font-weight: bolder;
-
+    
     /* border: 1px solid green; */
     
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
-
+    
     height: 100%;
+    width: 5.5em;
+
+    margin-left: 15%;
+  }
+  
+  .btnNYP2{
+    background-color: #2980b9;
+    color: black;
+    font-weight: bolder;
+    
+    /* border: 1px solid green; */
+    
+    display: flex;
+    
+    height: 100%;
+    width: 5.5em;
+    
+    margin-right: 15%;
+  }
+  
+  
+  /* Estilos para el contenedor del carrusel y las imágenes previas/siguientes */
+  .carouselSlide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
-.ContenedorCard{
-  /* background-color: aqua; */
+.prevImg, .nextImg {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 1; /* Asegura que las imágenes previas y siguientes estén detrás del contenido actual */
+}
 
+.prevImg {
+  left: 10%;
+  width: 50%;
+  padding-left: 5%; /* Ajusta el valor según lo desees */
+}
+
+.nextImg {
+  right: 10%;
+  width: 50%;
+  padding-right: 5%; /* Ajusta el valor según lo desees */
+}
+
+.prevImgItem, .nextImgItem {
   width: 100%;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  
-  grid-gap: 10px;
-  
-  /* margin: 25px 100px; */
-  padding: 50px 100px;
+  height: 100%;
+  opacity: 0.3;
 }
 
-.card{
-  background-color: red;
+.imgs {
+  width: 400px;
+  height: 250px;
+  position: relative;
+  z-index: 2; /* Asegura que el contenido actual esté en frente de las imágenes previas y siguientes */
 
-  width: 350px;
-  height: 200px;
-
-  /* margin: 10px; */
+  -webkit-box-shadow: 0px 0px 13px 5px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 13px 5px rgba(255,255,255,1);
+  box-shadow: 0px 0px 13px 5px rgba(255,255,255,1);
 }
-
-  

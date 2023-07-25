@@ -22,8 +22,12 @@ body {
   /* background-color: #FF1847; */
   padding-bottom: 15px;
 
+  color: #2980b9;
+
   font-family:'Courier New', Courier, monospace;
   font-weight: bolder;
+
+  font-size: 18px;
 }
 
 .nav-links {
