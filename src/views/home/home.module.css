@@ -7,25 +7,39 @@
     padding-right: 100px;
     
     height: 100vh;
+
 }
+
 
 @keyframes rotate-center{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
 
-.contenedorHome{
-    animation:rotate-center 1s;
-
+.contenedorHome0{
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     
     height: fit-content;
     
     color: white;
-
-    padding-left: 100px;
-    padding-right: 100px;
-
+    
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    
     background-color: #1A1E23;
+    /* border: 5px solid greenyellow; */
+
+    /* border: 1px solid black; */
+}
+
+.contenedorHome{
+    animation:rotate-center 1s;
+
+    display: flex;
+    align-items: center;
+    
+    height: fit-content;
+    
+    color: white;
 
     /* border: 1px solid black; */
 }

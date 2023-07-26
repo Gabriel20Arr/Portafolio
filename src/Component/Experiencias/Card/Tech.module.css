@@ -1,89 +1,30 @@
-.contendor{
-    background-color: #eeee;
-    height: 100vh;
-
-    /* border: none;
-    border-top: 1px solid rgba(0, 0, 0, 0.592);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.592); */
-
+.contenedorCard{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
     align-items: center;
 
-    padding: none;
-    padding-left: 100px;
-    padding-right: 100px;
+    border: 1px solid red;
 
-    /* overflow: hidden; */
+    height: fit-content;
+
 }
 
-.SobreMi{
-    background-color: #2980B9;
-    color: white;
-    
-    border-radius: 5px;
+.contenedorCard2{
+    border: 1px solid blue;
+    background-color: #1A1E23;
 
-    width: 10em;
 
-    padding: 0 5px;
-    margin-bottom: 20px;
-    margin-top: 2.5em;
+    height: 300px;
+    width: 90%;
 
-    font-weight: bolder;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 30px;
+    margin: 10px;
+
+    overflow: hidden;
 }
 
-.c0{
-    /* border: 1px solid black; */
 
-    display: flex;
-    justify-content: center;
-}
-
-.c1{
-    /* border: 1px solid red; */
-
-    display: flex;
-    justify-content: flex-end;
-    /* align-items: center; */
-
-    width: 30%;
-    /* height: fit-content; */
-}
-
-.c1IMG{
-    width: 100%;
-    height: 90%;
-}
-
-.c2{
-    border: 1px solid black;
-    
-    display: flex;
-    flex-direction: column;
-    
-    
-    padding: 10px;
-    
-    width: 65%;
-    height: 90%;
-    
-}
-
-.c2P{
-    /* border: 1px solid green; */
-    /* border: 1px solid black; */
-    border-left: none;
-    border-bottom: none;
-    margin: 15px;
-    
-    text-align: start;
-
-    font-size: 17px;
-}
-
+/* ................................... */
 .nameT{
     /* background-color: #2980B9; */
     color: #2980B9;

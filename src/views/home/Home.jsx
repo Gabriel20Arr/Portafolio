@@ -22,9 +22,11 @@ function Home() {
       </header>
 
       <tbody>
-        <div className={styles.contenedorHome}>
-          <SobreMi1 />
-          <Imagen />        
+        <div className={styles.contenedorHome0}>
+          <div className={styles.contenedorHome}>
+            <SobreMi1 />
+            <Imagen />        
+          </div>
         </div>
 
         <SobreMi />

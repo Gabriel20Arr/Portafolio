@@ -1,45 +1,24 @@
 import React from 'react'
 
-import styles from "./SobreMi.module.css"
+import styles from './Tech.module.css'
 
-import logoReact from "../../utils/LogosTech/react_original_logo_icon_146374.ico"
-import logoJS from "../../utils/LogosTech/javascript_icon_130900.ico"
-import logoHTML from "../../utils/LogosTech/5352-html5_102567.ico"
-import logoCss from "../../utils/LogosTech/CSS3_icon-icons.com_67069.ico"
-import logoRedux from "../../utils/LogosTech/redux_original_logo_icon_146365.ico"
-import logoExpress from "../../utils/LogosTech/express_original_wordmark_logo_icon_146528.ico"
-import logoMongoDB from "../../utils/LogosTech/mongodb_original_logo_icon_146424.ico"
-import logoPostgreSQL from "../../utils/LogosTech/postgresql_original_logo_icon_146391.ico"
-import logoNPM from "../../utils/LogosTech/npm_original_wordmark_logo_icon_146402.ico"
-import logoBoostrap from "../../utils/LogosTech/bootstrap_plain_logo_icon_146619.ico"
-import logoTrello from "../../utils/LogosTech/trello_logo_icon_189227.ico"
-import logoNode from "../../utils/LogosTech/file_type_node_icon_130301.ico"
-import logoGitHab from "../../utils/LogosTech/github (1).png"
+import logoReact from "../../../utils/LogosTech/react_original_logo_icon_146374.ico"
+import logoJS from "../../../utils/LogosTech/javascript_icon_130900.ico"
+import logoHTML from "../../../utils/LogosTech/5352-html5_102567.ico"
+import logoCss from "../../../utils/LogosTech/CSS3_icon-icons.com_67069.ico"
+import logoRedux from "../../../utils/LogosTech/redux_original_logo_icon_146365.ico"
+import logoExpress from "../../../utils/LogosTech/express_original_wordmark_logo_icon_146528.ico"
+import logoMongoDB from "../../../utils/LogosTech/mongodb_original_logo_icon_146424.ico"
+import logoPostgreSQL from "../../../utils/LogosTech/postgresql_original_logo_icon_146391.ico"
+import logoNPM from "../../../utils/LogosTech/npm_original_wordmark_logo_icon_146402.ico"
+import logoBoostrap from "../../../utils/LogosTech/bootstrap_plain_logo_icon_146619.ico"
+import logoTrello from "../../../utils/LogosTech/trello_logo_icon_189227.ico"
+import logoNode from "../../../utils/LogosTech/file_type_node_icon_130301.ico"
+import logoGitHab from "../../../utils/LogosTech/github (1).png"
 
-import imgGabriel from '../../utils/Gabriel.jpg'
-
-export default function SobreMi() {
+function Tech() {
   return (
-    <div id='sobre-mi' className={styles.contendor}>
-      
-      <h2 className={styles.SobreMi}> Sobre Mi </h2>
-
-      <div className={styles.c0}>
-      
-        <div className={styles.c1}>
-          <img src={imgGabriel} alt='img' className={styles.c1IMG} />
-        </div>
-        
-        <div className={styles.c2}>
-          <p className={styles.c2P}>
-            Soy un desarrollador <b> Full Stack </b> argentino con amplia experiencia en todas las áreas del desarrollo web. 
-            <br />
-            Mi enfoque se centra en crear soluciones sólidas y escalables utilizando tecnologías modernas y prácticas ágiles. 
-            <br/>
-            Soy una persona empática, responsable y disciplinada, y disfruto trabajando en equipo. He demostrado habilidades de comunicación y liderazgo al colaborar efectivamente en entornos grupales. Además, siempre estoy en busca de oportunidades para ampliar mis conocimientos a través de certificaciones y cursos relevantes en desarrollo web.
-          </p>
-        
-
+    <div className={styles.contenedorCard}>
           <span className={styles.nameT}> Tecnologias </span>
           <div className={styles.logosT}>
 
@@ -109,11 +88,8 @@ export default function SobreMi() {
             </div>
 
           </div>
-      
-        </div>
-      
-      </div>
-      
     </div>
   )
 }
+
+export default Tech;

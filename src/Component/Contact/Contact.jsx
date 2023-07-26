@@ -66,7 +66,7 @@ export default function SobreMi() {
   return (
     <div id='contacto' className={styles.contact}>
         <div className={styles.contact1}>
-          <h1>Contacto</h1>
+          <h1 className={styles.TittleContacto}>Contacto</h1>
 
           <form className={styles.contact2} ref={form} onSubmit={sendEmail}>
             <label className={styles.Labels}>Nombre</label>
@@ -78,7 +78,7 @@ export default function SobreMi() {
             <label className={styles.Labels}>Mensaje</label>
             <textarea name="message" placeholder='mensaje'/> 
 
-            <button type="submit" value="Send" class="btn btn-secondary mt-3">Enviar</button>
+            <button type="submit" value="Send" className={styles.btn}>Enviar</button>
           </form>
         </div>
     </div>
