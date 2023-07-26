@@ -1,0 +1,90 @@
+.contenedorCard{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    border: 1px solid red;
+
+    height: fit-content;
+
+}
+
+.contenedorCard2{
+    border: 1px solid blue;
+    background-color: #1A1E23;
+
+
+    height: 300px;
+    width: 90%;
+
+    margin: 10px;
+
+    overflow: hidden;
+}
+
+
+/* ................................... */
+.nameT{
+    /* background-color: #2980B9; */
+    color: #2980B9;
+
+    /* padding-top: 15px; */
+    
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.logosT{
+    /* border: 1px solid black; */
+    
+    /* margin-top: 0; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    /* width: 80%; */
+    /* height: 6em; */
+    
+}
+
+.logoT {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    transition: transform 0.3s; /* Agrega una transición suave para la propiedad transform */
+}
+
+.logoT:hover {
+    transform: scale(2); /* Escalar 2 veces en el evento hover */
+    cursor: pointer; /* Añade un cursor de tipo 'pointer' para indicar que el elemento es interactivo */
+}
+
+.nombre {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px; /* Ajusta el espaciado entre el logo y el nombre */
+    
+    /* border: 1px solid black; */
+}
+
+/* Opcional: para ocultar los nombres por defecto y mostrarlos solo en hover */
+.logosT .nombre {
+    display: none;
+}
+
+.logosT div:hover .nombre {
+    display: block;
+}
+
+
+.DlogoT{
+    /* opacity: 10px; */
+}
