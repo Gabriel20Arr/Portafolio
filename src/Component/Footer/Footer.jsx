@@ -29,11 +29,11 @@ function Footer() {
             </Link>
           </span>
 
-          <span className={styles.logos}>
+          {/* <span className={styles.logos}>
             <Link to="https://w.app/qGrVHj" target="_blank">
               <img src={whatsappLogo} alt="WhatsApp" style={{ width: "25px" }} />
             </Link>
-          </span>
+          </span> */}
         </div>  
   )
 }

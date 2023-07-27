@@ -42,11 +42,11 @@ function SobreMi1() {
             </Link>
           </span>
 
-          <span className={styles.logos}>
+          {/* <span className={styles.logos}>
             <Link to="https://w.app/qGrVHj" target="_blank">
               <img src={whatsappLogo} alt="WhatsApp" style={{ width: "19px" }} />
             </Link>
-          </span>
+          </span> */}
 
           <span className={styles.logos}>
             <Link to="https://www.instagram.com/" target="_blank">
