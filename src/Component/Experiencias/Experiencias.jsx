@@ -23,7 +23,7 @@ import Foods from '../../utils/Foods.png'
 import menuFoods from '../../utils/menuFoods.png'
 import rickandmorty from '../../utils/rickandmorty.png'
 import rickandmorty2 from '../../utils/rickandmorty2.png'
-import portafolioo from '../../utils/portafolioTest.png'
+import portafolioo from '../../utils/portfolioTest2.png'
 import portafolio2 from '../../utils/portafolio2.png'
 
 
