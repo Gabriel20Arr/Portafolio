@@ -23,8 +23,8 @@ import Foods from '../../utils/Foods.png'
 import menuFoods from '../../utils/menuFoods.png'
 import rickandmorty from '../../utils/rickandmorty.png'
 import rickandmorty2 from '../../utils/rickandmorty2.png'
-import portafolioo from '../../utils/PortafolioTest.png'
-import portafolio2 from '../../utils/Portafolio2.png'
+import portafolioo from '../../utils/portafolioTest.png'
+import portafolio2 from '../../utils/portafolio2.png'
 
 
 function Experiencias() {
