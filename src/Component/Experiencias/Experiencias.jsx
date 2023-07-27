@@ -23,8 +23,8 @@ import Foods from '../../utils/Foods.png'
 import menuFoods from '../../utils/menuFoods.png'
 import rickandmorty from '../../utils/rickandmorty.png'
 import rickandmorty2 from '../../utils/rickandmorty2.png'
-import portafolio from '../../utils/Portafolio.png'
-import portafolio2 from '../../utils/Portafolio2.png'
+import portafolioo from '../../utils/portfolioTest2.png'
+import portafolio2 from '../../utils/portafolioo2.png'
 
 
 function Experiencias() {
@@ -283,7 +283,7 @@ function Experiencias() {
 
       <div className={styles.Card}>
         <div className={styles.imgs}>
-          <img src={portafolio} alt='' className={styles.img}/>
+          <img src={portafolioo} alt='' className={styles.img}/>
           <img src={portafolio2} alt='' className={styles.img}/>
         </div>
           
