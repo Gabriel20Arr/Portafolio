@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 
 import styles from './Proyectos.module.css';
 
+import Swal from 'sweetalert2/dist/sweetalert2.js';
+import 'sweetalert2/src/sweetalert2.scss';
+
 import marketX from '../../utils/marketX.png';
 import Foods from '../../utils/Foods.png';
 import rickandmorty from '../../utils/rickandmorty.png';
-import portafolio from '../../utils/Portafolio.png';
+import portafolio from '../../utils/Portafolio.png'
 
-import Swal from 'sweetalert2/dist/sweetalert2.js';
-import 'sweetalert2/src/sweetalert2.scss';
 
 import {
   Carousel,
