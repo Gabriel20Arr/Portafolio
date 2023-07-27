@@ -8,7 +8,7 @@ import 'sweetalert2/src/sweetalert2.scss';
 import marketX from '../../utils/marketX.png';
 import Foods from '../../utils/Foods.png';
 import rickandmorty from '../../utils/rickandmorty.png';
-import portafolioo from '../../utils/Portafolio2.png'
+import portafolioo from '../../utils/PortafolioTest.png'
 
 import {
   Carousel,
