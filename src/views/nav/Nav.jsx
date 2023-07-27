@@ -15,7 +15,7 @@ function Nav() {
   return (    
     <div>
       <nav className="navbar">
-        <span className="gabriel" > &lt; Gabriel Arroyo /&gt; </span>
+        <span className="gabriel" onClick={() => handleScroll('home')}> &lt; Gabriel Arroyo /&gt; </span>
 
         <ul className="nav-links">
           <li className="nav-item">
