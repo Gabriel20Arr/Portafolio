@@ -8,7 +8,7 @@ import 'sweetalert2/src/sweetalert2.scss';
 import marketX from '../../utils/marketX.png';
 import Foods from '../../utils/Foods.png';
 import rickandmorty from '../../utils/rickandmorty.png';
-import portafolio from '../../utils/Portafolio2.png'
+import portafolioo from '../../utils/Portafolio2.png'
 
 import {
   Carousel,
@@ -17,6 +17,7 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
+
 
 const items = [
   {
@@ -35,7 +36,7 @@ const items = [
     githubLink: 'https://github.com/Gabriel20Arr/RickAndMorty-Integrador'
   },
   {
-    src: portafolio,
+    src: portafolioo,
     link: 'https://d2x3xhvgiqkx42.cloudfront.net/12345678-1234-1234-1234-1234567890ab/2016/12/22/ae36c0d0-52ea-4a4a-a691-bec9b2458f5b.png',
     githubLink: 'https://github.com/Gabriel20Arr/Portafolio'
   },
