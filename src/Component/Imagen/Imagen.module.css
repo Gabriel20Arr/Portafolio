@@ -1,17 +1,19 @@
 .ImageHome{
         display: flex;
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center; */
+        /* align-items: center; */
         
-        width: 50%;
+        width: 100%;
         height: 100%;
+
+        margin-left: 45px;
     
-        /* border: 1px solid black; */
+        /* border: 4px solid greenyellow; */
         
-}
-
-/* @keyframes scale-down-center{0%{transform:scale(1)}100%{transform:scale(.5)}} */
-
+    }
+    
+    /* @keyframes scale-down-center{0%{transform:scale(1)}100%{transform:scale(.5)}} */
+    
 .Imagen{
     /* animation:scale-down-center 0.9s; */
     
@@ -24,5 +26,10 @@
     -webkit-box-shadow: -6px 6px 39px 6px rgba(0,0,0,1);
     -moz-box-shadow: -4px 6px 33px 6px rgba(0,0,0,1);
     box-shadow: -4px 6px 33px 6px rgba(0,0,0,1);
-    
+}
+
+@media (max-width: 500px) {
+    .Imagen{
+        filter: blur(10px);
+    }
 }

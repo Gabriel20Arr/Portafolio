@@ -11,7 +11,6 @@ import styles from './home.module.css'
 import Nav from '../nav/Nav'
 import Proyectos from '../../Component/Proyectos/Proyectos'
 import Experiencias from '../../Component/Experiencias/Experiencias'
-// import Habilidades from '../../Component/Habilidades/Habilidades'
 
 
 function Home() {
@@ -21,21 +20,24 @@ function Home() {
         <Nav />
       </header>
 
-      <tbody>
-        <div className={styles.contenedorHome0}>
-          <div className={styles.contenedorHome}>
+      <div className={styles.contenedorHome0}>
+        <div className={styles.contenedorHome}>
+        
+          <div className={styles.HQ1}>
             <SobreMi1 />
+          </div>
+  
+          <div className={styles.HQ2}>
             <Imagen />        
           </div>
+  
         </div>
+      </div>
 
-        <SobreMi />
-        <Proyectos />
-        <Experiencias />
-        {/* <Habilidades /> */}
-        <Contact />
-
-      </tbody>
+      <SobreMi />
+      <Proyectos />
+      <Experiencias />
+      <Contact />
 
       <footer className={styles.PieDePagina}> 
         <Footer />

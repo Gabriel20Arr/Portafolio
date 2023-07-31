@@ -114,8 +114,8 @@
 }
 
 .logoT {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     margin-right: 10px;
     transition: transform 0.3s; /* Agrega una transición suave para la propiedad transform */
 }
@@ -146,4 +146,68 @@
 
 .DlogoT{
     /* opacity: 10px; */
+}
+
+@media (max-width: 500px) {
+    .contendor{
+        /* background-color: red; */
+        margin: none;
+        padding: 5px;
+
+        height: fit-content;
+    }
+
+    .c1IMG{
+        /* border: 5px solid blue; */
+        width: 100%;
+        height: fit-content;
+    }
+
+    .c1{
+        display: flex;
+
+        max-width: 200px;
+        height: auto;
+        /* border: 5px solid greenyellow; */
+    }
+    
+    .c2{
+        border: 1px solid white;
+        
+        display: flex;
+        flex-direction: column;
+        
+        
+        padding: 5px;
+        
+        width: 70%;
+        height: fit-content;
+        
+    }
+    
+    .c2P{
+        border-left: none;
+        border-bottom: none;
+        margin: 8px;
+        
+        text-align: start;
+    
+        font-size: 10px;
+    }
+
+    .nameT{
+        font-size: 15px;
+    }
+
+    .logoT {
+        /* background-color: white; */
+        display: grid;
+        grid-template-columns: repeat(1fr 1fr 1fr 1fr);
+        gap: 10px; /* Espacio entre las columnas */
+        
+        max-width: 500px; /* Máximo ancho para limitar a 4 columnas */
+        width: 90%; /* Ancho del contenedor */
+        
+        transition: transform 0.3s; 
+    }
 }

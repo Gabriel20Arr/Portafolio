@@ -1,7 +1,6 @@
 .contnedorExp{
     display: flex;
     flex-direction: column;
-
     align-items: center;
     
     min-height: 100vh;
@@ -71,10 +70,17 @@
     height: 50%;
 }
 
+.img1{
+    border: 1px solid white;
+
+    width: 270px;
+    height: 50%;
+}    
+
 /* titulos de los proyectos */
 .titulos{
     /* border: 1px solid greenyellow; */
-    
+    font-size: 20px;
     font-weight: bolder;
     color: #2980B9;
 }
@@ -143,14 +149,14 @@
 .logosT{
     /* border: 1px solid black; */
     
-    /* margin-top: 0; */
+    margin-top: 0;
     
     display: flex;
     justify-content: center;
     align-items: flex-start;
     
-    /* width: 80%; */
-    /* height: 6em; */
+    width: 80%;
+    height: 6em;
     
 }
 
@@ -180,11 +186,69 @@
     display: none;
 }
 
-/* .logosT div:hover .nombre {
+.logosT div:hover .nombre {
     display: block;
-} */
+}
 
 
 .DlogoT{
     /* opacity: 10px; */
+}
+
+@media (max-width: 500px) {
+    .contnedorExp{
+        display: flex;
+        flex-direction: column;
+    
+        align-items: center;
+        
+        /* min-height: 100vh; */
+    
+        padding-top: 4em;
+    
+        background-color: #eeee;
+        /* background-color: red; */
+    }
+    
+
+    /* Cards */
+    .Card{
+        display: flex;
+        flex-direction: column;
+        
+        /* border: 1px solid blue; */
+        background-color: #1A1E23;
+    
+        color: white;
+    
+        /* height: 280px; */
+        height: fit-content;
+        width: 90%;
+    
+        margin: 10px;
+    
+        overflow: hidden;
+    }
+    
+    /* Imagen */
+    .imgs{
+        display: flex;
+        flex-direction: column;
+        
+        margin: 10px;
+        margin-right: none;
+    
+    }
+    
+    .img{
+        border: 1px solid white;
+    
+        width: 100%;
+        height: fit-content;
+    }
+
+    .img1{
+        margin-bottom: 10px;
+    }    
+
 }
