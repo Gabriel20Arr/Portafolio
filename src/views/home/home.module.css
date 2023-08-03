@@ -8,6 +8,8 @@
     
     height: 100vh;
 
+    z-index: -1;
+
 }
 
 
@@ -15,7 +17,6 @@
 
 .contenedorHome0{
     display: flex;
-    align-items: center;
     justify-content: center;
     
     height: fit-content;
@@ -23,9 +24,6 @@
     color: white;
     
     background-color: #1A1E23;
-    /* border: 5px solid greenyellow; */
-
-    /* border: 1px solid black; */
 }
 
 .contenedorHome{
@@ -33,27 +31,24 @@
 
     display: flex;
     align-items: center;
+
+    /* margin-top: 4em; */
     
     height: fit-content;
     
     color: white;
 
-    /* border: 1px solid black; */
+    /* border: 5px solid blue; */
   }
   
 .HQ1{
-  width: 100%;
-}
-
-.HQ2{
   display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
+  justify-content: space-around;
   
   width: 100%;
-  
-  
+  height: fit-content;
+
   /* background-color: red; */
 }
 
@@ -83,7 +78,7 @@
 }
 
 /* Media query para resoluciones menores a 389px (pantallas pequeñas) */
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .contenedor {
       /* Agrega los estilos para el contenedor en pantallas pequeñas */
       padding-left: 10px;
@@ -100,42 +95,23 @@
     .contenedorHome {
       /* Agrega los estilos para contenedorHome en pantallas pequeñas */
       flex-direction: column;
-      align-items: center;
-      padding: 20px;
       color: black;
 
       height: 450px;
       /* background-color: greenyellow; */
     }
     
-    .HQ1{
-      /* margin-top: 30%; */
-      position: absolute;
-      
-      background-color: transparent;
-      
-      width: 90%;
-      z-index: 1;
-
-      /* font-weight: bold; */
-      transform: translateY(-25%);
-    }
+  .HQ1{
+    display: flex;
+    align-items: center;
     
-    .HQ2{
-      /* display: flex; */
-      /* flex-direction: column; */
-      /* justify-content: center; */
-      margin-top: 55%;
-      position: absolute;
-      
-      align-items: center;
-      
-      width: 100%;
+    /* width: 100%; */
+    height: 100%;
+  
+    /* background-color: red; */
 
-      transform: translateY(-50%);
-      filter: blur(10px);
-    }
-    
+    z-index: 0;
+  }
   
     .PieDePagina {
       /* Agrega los estilos para el pie de página en pantallas pequeñas */

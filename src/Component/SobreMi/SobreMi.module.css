@@ -14,7 +14,7 @@
     padding-left: 100px;
     padding-right: 100px;
 
-    /* overflow: hidden; */
+    /* border: 3px solid blue; */
 }
 
 .SobreMi{
@@ -148,7 +148,7 @@
     /* opacity: 10px; */
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     .contendor{
         /* background-color: red; */
         margin: none;
@@ -157,20 +157,20 @@
         height: fit-content;
     }
 
-    .c1IMG{
-        /* border: 5px solid blue; */
-        width: 100%;
-        height: fit-content;
-    }
-
     .c1{
         display: flex;
 
-        max-width: 200px;
-        height: auto;
+        max-width: 30%;
+        height: fit-content;
         /* border: 5px solid greenyellow; */
     }
     
+    .c1IMG{
+        /* border: 5px solid blue; */
+        width: 100%;
+        /* height: fit-content; */
+    }
+
     .c2{
         border: 1px solid white;
         

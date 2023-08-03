@@ -25,11 +25,10 @@ function Home() {
         
           <div className={styles.HQ1}>
             <SobreMi1 />
-          </div>
-  
-          <div className={styles.HQ2}>
             <Imagen />        
           </div>
+          {/* <div className={styles.HQ2}>
+          </div> */}
   
         </div>
       </div>
