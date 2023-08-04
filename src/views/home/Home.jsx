@@ -20,15 +20,13 @@ function Home() {
         <Nav />
       </header>
 
-      <div className={styles.contenedorHome0}>
+      <div id='home' className={styles.contenedorHome0}>
         <div className={styles.contenedorHome}>
         
           <div className={styles.HQ1}>
             <SobreMi1 />
             <Imagen />        
           </div>
-          {/* <div className={styles.HQ2}>
-          </div> */}
   
         </div>
       </div>

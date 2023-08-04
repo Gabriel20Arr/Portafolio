@@ -31,13 +31,7 @@
     .ImageHome{
         width: 100%;
         height: 100vh;
-
-        /* position: absolute; */
-        /* transform: translateX(-25%); */
-
-        z-index: -1;
     }
-    
     
     .Imagen{
         width: 360px;
@@ -47,7 +41,8 @@
         -moz-box-shadow: -4px 6px 33px 6px rgba(0,0,0,1);
         box-shadow: -4px 6px 33px 6px rgba(0,0,0,1);
 
-        filter:blur(5px);
-    }
+        filter: blur(10px);
 
+        z-index: 1;
+    }
 }

@@ -99,7 +99,7 @@
     font-size: 15px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     .contact{
         /* background-color: #eeee; */
         background-color: #1A1E23;
@@ -108,7 +108,7 @@
         justify-content: center;
         align-items: center;
         
-        /* height: 500px; */
+        height: 90vh;
     
         /* border: 5px solid green; */
         
@@ -130,6 +130,7 @@
     
     
         width: 70%;
+        height: 80%;
 
     
         /* padding: 20px 50px; */
@@ -144,8 +145,8 @@
         flex-direction: column;
         justify-content: center;
         
-        /* height: 300px; */
-        min-width: 220px;
+        width: 80%;
+        height: 65%;
     
         padding: 10px 25px;
         padding-top: 1px;

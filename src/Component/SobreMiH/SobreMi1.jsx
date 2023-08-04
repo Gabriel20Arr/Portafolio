@@ -1,17 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-
 import linkedinLogo from "../../utils/linkedin.png";
 import githubLogo from "../../utils/github-mark-white.png";
 import instagramLogo from "../../utils/instagram.png";
-// import whatsappLogo from "../../utils/whatsapp.png";
 
 import styles from './SobreMi1.module.css'
 
+
 function SobreMi1() {
   return (
-    <div id='home' className={styles.SobreMiHome}>
+    <div className={styles.SobreMiHome}>
       <div className={styles.textoH}>
 
         <span className={styles.SobreMiHome2}>
@@ -36,12 +35,6 @@ function SobreMi1() {
               <img src={githubLogo} alt="GitHub" style={{ width: "18px" }} />
             </Link>
           </span>
-
-          {/* <span className={styles.logos}>
-            <Link to="https://w.app/qGrVHj" target="_blank">
-              <img src={whatsappLogo} alt="WhatsApp" style={{ width: "19px" }} />
-            </Link>
-          </span> */}
 
           <span className={styles.logos}>
             <Link to="https://www.instagram.com/" target="_blank">

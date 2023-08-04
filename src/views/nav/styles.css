@@ -218,22 +218,19 @@ body {
   /* Estilos para mostrar el menú desplegable */
   .nav-links.show {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
 
     position: absolute;
     top: 50px; 
-    right: 0;
+    right: 16px;
     
-    height: 350px;
-    width: 100%;
+    width: 95%;
     
-    padding: 16px;
+    padding: 10px;
     
-    /* z-index: 999; */
+    z-index: 100;
+    
     background-color: white;
-    backdrop-filter: blur(10px);
-    /* filter: blur(10px); */
   }
   
   .nav-links.show li {

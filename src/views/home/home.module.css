@@ -6,39 +6,26 @@
     padding-left: 100px;
     padding-right: 100px;
     
-    height: 100vh;
-
-    z-index: -1;
-
+    max-height: 100vh;
 }
-
 
 @keyframes rotate-center{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
 
 .contenedorHome0{
     display: flex;
     justify-content: center;
-    
-    height: fit-content;
-    
-    color: white;
-    
-    background-color: #1A1E23;
-}
-
-.contenedorHome{
-    animation:rotate-center 1s;
-
-    display: flex;
     align-items: center;
-
-    /* margin-top: 4em; */
     
-    height: fit-content;
+    min-height: 80vh;
     
     color: white;
+    background-color: #1A1E23;
+  }
+  
+  .contenedorHome{
+  animation:rotate-center 1s;
 
-    /* border: 5px solid blue; */
+    /* display: flex; */
   }
   
 .HQ1{

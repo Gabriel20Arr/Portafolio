@@ -1,6 +1,6 @@
 .contendor{
     background-color: #eeee;
-    height: 100vh;
+    max-height: fit-content;
 
     /* border: none;
     border-top: 1px solid rgba(0, 0, 0, 0.592);
@@ -26,8 +26,8 @@
     width: 10em;
 
     padding: 0 5px;
-    margin-bottom: 20px;
-    margin-top: 3.5em;
+    margin-bottom: 25px;
+    margin-top: 2.5em;
 
     font-weight: bolder;
     font-family:'Courier New', Courier, monospace;
@@ -39,7 +39,7 @@
 
     display: flex;
     justify-content: center;
-    height: 70vh;
+    min-height: 50vh;
 }
 
 .c1{
