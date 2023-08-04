@@ -15,8 +15,7 @@ function SobreMi1() {
 
         <span className={styles.SobreMiHome2}>
           <span className={styles.span1}>
-            Hola! 
-            Soy Gabriel Arroyo
+            Hola! Soy Gabriel Arroyo
           </span>
           <span className={styles.span2}>
             <b> Full Stack Developer </b>

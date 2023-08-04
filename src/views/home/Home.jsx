@@ -21,14 +21,12 @@ function Home() {
       </header>
 
       <div id='home' className={styles.contenedorHome0}>
-        <div className={styles.contenedorHome}>
-        
+       
           <div className={styles.HQ1}>
             <SobreMi1 />
-            <Imagen />        
+            <Imagen />
           </div>
-  
-        </div>
+
       </div>
 
       <SobreMi />
