@@ -146,7 +146,7 @@ class Proyectos extends Component {
           next={this.next}
           previous={this.previous}
         >
-          <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
+          <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} className={styles.paginado} />
           {slides}
           <CarouselControl direction="prev" directionText=" " onClickHandler={this.previous} className={styles.btnNYP} />
           <CarouselControl direction="next" directionText=" " onClickHandler={this.next} className={styles.btnNYP2} />

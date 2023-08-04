@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+
 import styles from './Footer.module.css'
 
 import linkedinLogo from "../../utils/linkedin.png";
 import githubLogo from "../../utils/github-mark-white.png";
 import instagramLogo from "../../utils/instagram.png";
-import whatsappLogo from "../../utils/whatsapp.png";
+// import whatsappLogo from "../../utils/whatsapp.png";
 
 
 function Footer() {

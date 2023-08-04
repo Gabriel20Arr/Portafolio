@@ -1,92 +1,92 @@
 .ContenedorProyectos {
-    min-height: 100vh;
+  height: 100vh;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    background-color: #eeee;
-    background-color: #1A1E23;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  background-color: #eeee;
+  background-color: #1A1E23;
 
-    /* border: 1px solid #0f0; */
-  }
+  /* padding-top: 4em; */
+  /* padding-bottom: 4.5em; */
 
-  .NameProyct{
-    /* background-color: white; */
-    
-    display: flex;
-    justify-content: center;
-    
-    
-    /* margin-top: 1.5em; */
-    margin-bottom: 2.5em;
-  }  
-  
-  .NameProyct2{
-    background-color: white;
-    color: #2980b9;
-    
-    border-radius: 5px;
+  /* border: 5px solid blue; */
+}
 
-    width: 10em;
+.NameProyct{
+  /* background-color: white; */
+  
+  display: flex;
+  justify-content: center;
+}  
 
-    padding: 0 5px;
+.NameProyct2{
+  background-color: white;
+  color: #2980b9;
+  
+  border-radius: 5px;
 
-    font-weight: bolder;
-    font-family:'Courier New', Courier, monospace;
-  }
-  
-  .ContenedorProyectos2 {
-    display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
-    
-    width: 90%;
-  }
-  
-  
-  .imgs {
-    width: 500px; /* Asegura que las imágenes ocupen todo el ancho del slide */
-    height: 350px;
-  }
-  
-  .btnNYP{
-    background-color: #2980b9;
-    color: black;
-    font-weight: bolder;
-    
-    /* border: 1px solid green; */
-    
-    display: flex;
-    
-    height: 100%;
-    width: 5.5em;
+  width: 10em;
 
-    margin-left: 15%;
-  }
+  padding: 0 5px;
+
+  margin-bottom: 1em;
+
+  font-weight: bolder;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.ContenedorProyectos2 {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
   
-  .btnNYP2{
-    background-color: #2980b9;
-    color: black;
-    font-weight: bolder;
-    
-    /* border: 1px solid green; */
-    
-    display: flex;
-    
-    height: 100%;
-    width: 5.5em;
-    
-    margin-right: 15%;
-  }
+  width: 90%;
+}
+
+
+.imgs {
+  width: 500px; /* Asegura que las imágenes ocupen todo el ancho del slide */
+  height: 350px;
+}
+
+.btnNYP{
+  background-color: #2980b9;
+  color: black;
+  font-weight: bolder;
   
+  /* border: 1px solid green; */
   
-  /* Estilos para el contenedor del carrusel y las imágenes previas/siguientes */
-  .carouselSlide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  display: flex;
+  
+  height: 100%;
+  width: 4em;
+
+  margin-left: 15%;
+}
+
+.btnNYP2{
+  background-color: #2980b9;
+  color: black;
+  font-weight: bolder;
+  
+  /* border: 1px solid green; */
+  
+  display: flex;
+  
+  height: 100%;
+  width: 4em;
+  
+  margin-right: 15%;
+}
+
+/* Estilos para el contenedor del carrusel y las imágenes previas/siguientes */
+.carouselSlide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .prevImg, .nextImg {
@@ -125,4 +125,75 @@
   -webkit-box-shadow: 0px 0px 13px 5px rgba(255,255,255,1);
   -moz-box-shadow: 0px 0px 13px 5px rgba(255,255,255,1);
   box-shadow: 0px 0px 13px 5px rgba(255,255,255,1);
+}
+
+@media (max-width: 800px) {
+
+  .ContenedorProyectos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 60vh;
+    
+    z-index: 0;
+    
+    /* border: 1px solid #0f0; */
+  }
+
+  .btnNYP{
+    background-color: #2980b9;
+    color: black;
+    font-weight: bolder;
+    
+    display: flex;
+    
+    height: 100%;
+    width: 3em;
+  
+    margin-left: 20%;
+  }
+  
+  .btnNYP2{
+    background-color: #2980b9;
+    color: black;
+    font-weight: bolder;
+    
+    display: flex;
+    
+    height: 100%;
+    width: 3em;
+    
+    margin-right: 20%;
+  }
+  
+    
+  /* Estilos para el contenedor del carrusel y las imágenes previas/siguientes */
+  .carouselSlide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* border: 5px solid red; */
+  }
+  
+  .prevImg, .nextImg {
+    display: none;
+
+    /* border: 5px solid red; */
+  }
+
+  .imgs {
+    width: 350px;
+    height: 200px;
+  
+    -webkit-box-shadow: 0px 0px 13px 5px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 13px 5px rgba(255,255,255,1);
+    box-shadow: 0px 0px 13px 5px rgba(255,255,255,1);
+  }
+
+  .paginado {
+    display: none;
+  }
+
 }

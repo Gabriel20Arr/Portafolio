@@ -1,28 +1,21 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-// import linkedinLogo from "../../utils/logosContact/linkedin (1).png";
-// import githubLogo from "../../utils/logosContact/github.png";
-// import instagramLogo from "../../utils/logosContact/logotipo-de-instagram.png";
-// import whatsappLogo from "../../utils/logosContact/whatsapp.png";
-
 import linkedinLogo from "../../utils/linkedin.png";
 import githubLogo from "../../utils/github-mark-white.png";
 import instagramLogo from "../../utils/instagram.png";
-import whatsappLogo from "../../utils/whatsapp.png";
-// import correoLogo from "../../utils/logosContact/correo.png";
 
 import styles from './SobreMi1.module.css'
 
+
 function SobreMi1() {
   return (
-    <div id='home' className={styles.SobreMiHome}>
+    <div className={styles.SobreMiHome}>
       <div className={styles.textoH}>
 
         <span className={styles.SobreMiHome2}>
           <span className={styles.span1}>
-            Hola! 
-            Soy Gabriel Arroyo
+            Hola! Soy Gabriel Arroyo
           </span>
           <span className={styles.span2}>
             <b> Full Stack Developer </b>
@@ -42,23 +35,11 @@ function SobreMi1() {
             </Link>
           </span>
 
-          {/* <span className={styles.logos}>
-            <Link to="https://w.app/qGrVHj" target="_blank">
-              <img src={whatsappLogo} alt="WhatsApp" style={{ width: "19px" }} />
-            </Link>
-          </span> */}
-
           <span className={styles.logos}>
             <Link to="https://www.instagram.com/" target="_blank">
               <img src={instagramLogo} alt="Instagram" style={{ width: "18px" }} />
             </Link>
           </span>
-
-          {/* <span className={styles.logos}>
-            <Link to="gabriel2021arr@gmail.com" target="_blank">
-              <img src={correoLogo} alt="correo" style={{ width: "18px" }} />
-            </Link>
-          </span> */}
 
         </div>
       </div>

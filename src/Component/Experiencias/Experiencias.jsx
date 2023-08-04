@@ -38,7 +38,7 @@ function Experiencias() {
 
       <div className={styles.Card}>
         <div className={styles.imgs}>
-          <img src={marketx} alt='' className={styles.img}/>
+          <img src={marketx} alt='' className={styles.img1}/>
           <img src={marketx2} alt='' className={styles.img}/>
         </div>
           
@@ -125,7 +125,7 @@ function Experiencias() {
 
       <div className={styles.Card}>
         <div className={styles.imgs}>
-          <img src={Foods} alt='' className={styles.img}/>
+          <img src={Foods} alt='' className={styles.img1}/>
           <img src={menuFoods} alt='' className={styles.img}/>
         </div>
           
@@ -207,7 +207,7 @@ function Experiencias() {
 
       <div className={styles.Card}>
         <div className={styles.imgs}>
-          <img src={rickandmorty} alt='' className={styles.img}/>
+          <img src={rickandmorty} alt='' className={styles.img1}/>
           <img src={rickandmorty2} alt='' className={styles.img}/>
         </div>
           
@@ -283,7 +283,7 @@ function Experiencias() {
 
       <div className={styles.Card}>
         <div className={styles.imgs}>
-          <img src={portafolioo} alt='' className={styles.img}/>
+          <img src={portafolioo} alt='' className={styles.img1}/>
           <img src={portafolio2} alt='' className={styles.img}/>
         </div>
           
